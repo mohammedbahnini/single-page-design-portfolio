@@ -1,0 +1,105 @@
+/* custom css for hero section */
+.hero__img--left {
+  right: calc(50% + 550px);
+}
+@media (max-width: 992px) {
+  .hero__img--left {
+    right: calc(50% + 297px);
+  }
+}
+.hero__img--left img {
+  -webkit-transform: scale(1.18);
+          transform: scale(1.18);
+}
+.hero__img--right {
+  left: calc(50% + 604px);
+}
+@media (max-width: 992px) {
+  .hero__img--right {
+    left: calc(50% + 320px);
+  }
+}
+.hero__img--right img {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.semi-circle-purple::after {
+  content: "";
+  position: absolute;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  bottom: 0;
+  left: 50%;
+  width: 8000px;
+  background-color: #24053E;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+}
+@media (max-width: 992px) {
+  .semi-circle-purple::after {
+    width: 3860px;
+  }
+}
+
+.semi-circle-ghost-white {
+  top: 504px;
+  height: 960px;
+  overflow: hidden;
+}
+@media (max-width: 992px) {
+  .semi-circle-ghost-white {
+    top: 403px;
+    height: 920px;
+  }
+}
+@media (max-width: 576px) {
+  .semi-circle-ghost-white {
+    height: 1071px;
+    top: 390px;
+  }
+}
+.semi-circle-ghost-white::after {
+  content: "";
+  position: absolute;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  bottom: 0;
+  left: 50%;
+  width: 8000px;
+  background-color: #FCF8FF;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+}
+@media (max-width: 992px) {
+  .semi-circle-ghost-white::after {
+    width: 3860px;
+  }
+}
+
+.features .feature {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+.features .feature__number span {
+  aspect-ratio: 1/1;
+  border: 1px solid #24053E;
+}
+.features .semi-circle-ghost-white::after {
+  content: "";
+  position: absolute;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  bottom: 0;
+  left: 50%;
+  width: 8000px;
+  background-color: #FCF8FF;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+}
+
+.founder .absolute-img img {
+  -webkit-transform: scale(1.17);
+          transform: scale(1.17);
+}

@@ -1,0 +1,47 @@
+.semi-circle-purple {
+    &::after{
+        content: '';
+        position: absolute;
+        transform: translateX(-50%);
+        bottom: 0;
+        left: 50%;
+        width: 8000px;
+        background-color: $dark-purple;
+        aspect-ratio: 1 / 1;
+        border-radius: 50%;
+
+        @include mq( $tablet-breakpoint ){
+            width: 3860px;
+        }
+    }
+}
+
+.semi-circle-ghost-white {
+    top: 504px;
+    height: 960px;
+    overflow: hidden;
+    @include mq( $tablet-breakpoint ){
+        top: 403px;
+        height: 920px;
+    }
+    @include mq( $mobile-breakpoint ){
+        height: 1071px;
+        top: 390px;
+    }
+    &::after{
+        content: '';
+        position: absolute;
+        transform: translateX(-50%);
+        bottom: 0;
+        left: 50%;
+        width: 8000px;
+        background-color: $ghost-white;
+        aspect-ratio: 1 / 1;
+        border-radius: 50%;
+            @include mq( $tablet-breakpoint ){
+                width: 3860px;
+            }
+
+    }
+}
+

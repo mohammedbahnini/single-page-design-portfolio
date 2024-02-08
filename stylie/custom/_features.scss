@@ -1,0 +1,25 @@
+.features {
+
+    .feature{
+        flex: 1;
+        &__number span{
+            aspect-ratio: 1 / 1;
+            border: 1px solid $dark-purple;
+        }
+    }
+
+    .semi-circle-ghost-white {
+        &::after{
+            content: '';
+            position: absolute;
+            transform: translateX(-50%);
+            bottom: 0;
+            left: 50%;
+            width: 8000px;
+            background-color: $ghost-white;
+                aspect-ratio: 1 / 1;
+                border-radius: 50%;
+    
+        }
+    }
+}

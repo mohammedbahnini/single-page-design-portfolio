@@ -1,0 +1,5 @@
+additional classes to add : 
+    - opacity
+    - line height
+    - dark mode ( advanced )
+    - flex wrap
