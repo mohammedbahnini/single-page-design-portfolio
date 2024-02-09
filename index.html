@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
-  
+
   <title>Frontend Mentor | Single-page design portfolio</title>
 
   <!-- style -->
@@ -13,13 +14,17 @@
   <link rel="stylesheet" href="stylie/dist/custom.css">
 
   <!-- slick js -->
-  <!-- Add the slick-theme.css if you want default styling -->
-<link rel="stylesheet" type="text/css" href="slick/slick.css"/>
-<!-- Add the slick-theme.css if you want default styling -->
-<link rel="stylesheet" type="text/css" href="slick/slick-theme.min.css"/>
+  <link rel="stylesheet" type="text/css" href="slick/slick.css" />
+  <link rel="stylesheet" type="text/css" href="slick/slick-theme.min.css" />
+
+  <!-- font awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 
 </head>
+
 <body class="bg-light-cream">
 
   <header class="pt9 tablet-pt8 mobile-pt4">
@@ -46,7 +51,8 @@
             Design solutions made easy
           </h1>
           <p class="text text-medium-brown max-w180 tablet-max-w143 m-auto">
-            With over ten years of experience in various design disciplines, I’m your one-stop shop for your design needs.
+            With over ten years of experience in various design disciplines, I’m your one-stop shop for your design
+            needs.
           </p>
         </div>
 
@@ -113,7 +119,7 @@
           </div>
           <!-- illustrations -->
 
-          
+
           <!-- illustrations -->
           <div class="square bg-dark-purple col4 p7 radius2 tablet-col6 tablet-flex-order6 mobile-col12">
             <div class="flex flex-col">
@@ -142,12 +148,14 @@
             <img src="assets/image-amy.webp" alt="Amy">
           </div>
 
-          <div class="intro__text flex flex-col row-gap8 tablet-row-gap6 mobile-align-center mobile-row-gap6 mobile-ai-center " >
+          <div
+            class="intro__text flex flex-col row-gap8 tablet-row-gap6 mobile-align-center mobile-row-gap6 mobile-ai-center ">
             <h2 class="heading-m">
               I’m Amy, and I’d love to work on your next project
             </h2>
             <p class="text text-medium-brown">
-              I love working with others to create beautiful design solutions. I’ve designed everything from brand illustrations 
+              I love working with others to create beautiful design solutions. I’ve designed everything from brand
+              illustrations
               to complete mobile apps. I’m also handy with a camera!
             </p>
             <a href="#" class="btn bg-light-red hover-bg-summer-yellow as-start mobile-as-center ">Free Consultation</a>
@@ -157,8 +165,8 @@
     </section>
     <!-- intro -->
 
-    
-    
+
+
     <!-- carousel -->
     <section class="carousel pt22 tablet-pt30 mobile-pt25">
 
@@ -168,7 +176,7 @@
         </h3>
       </div>
 
-      <div class="carousel__items " >
+      <div class="carousel__items ">
 
         <div class="item w135 radius3 overflow-hidden shrink-0 mobile-w68 ">
           <img src="assets/image-slide-3.jpg" alt="">
@@ -190,11 +198,11 @@
 
       <div class="carousel__controls pt14 flex jc-center ai-center gap4 mobile-pt8 ">
         <button class="btn btn-prev rounded p0 flex ai-center jc-center w16 bg-black hover-bg-purple">
-          <
+          <i class="fa-solid fa-arrow-left"></i>
         </button>
-        <button class="btn btn-next rounded p0 flex ai-center jc-center w16 bg-black hover-bg-purple">
-          >
-        </button>
+            <button class="btn btn-next rounded p0 flex ai-center jc-center w16 bg-black hover-bg-purple">
+              <i class="fa-solid fa-arrow-right fs4"></i>
+            </button>
       </div>
     </section>
     <!-- carousel -->
@@ -203,24 +211,26 @@
     <!-- call -->
     <section class="call pt22 tablet-pt30 mobile-pt25">
       <div class="container ">
-        
-        <div class="call__content bg-black radius3  flex jc-space-between ai-center py20 pl16 pr24 tablet-flex-col tablet-align-center tablet-pt14 tablet-pb16 mobile-px6 mobile-py12 mobile-row-gap6  ">
-          <div class="call__text text-light-cream  max-w135 " >
+
+        <div
+          class="call__content bg-black radius3  flex jc-space-between ai-center py20 pl16 pr24 tablet-flex-col tablet-align-center tablet-pt14 tablet-pb16 mobile-px6 mobile-py12 mobile-row-gap6  ">
+          <div class="call__text text-light-cream  max-w135 ">
             <h2 class="heading-m mb6 tablet-mb7 mobile-mb6">
               Book a call with me
             </h2>
             <p class="text tablet-mb7 mobile-mb6">
-              I’d love to have a chat to see how I can help you. The best first step is for us to discuss your project during a free consultation. Then we can move forward from there.
+              I’d love to have a chat to see how I can help you. The best first step is for us to discuss your project
+              during a free consultation. Then we can move forward from there.
             </p>
           </div>
           <a href="" class="call_cta btn bg-light-red shrink-0 hover-bg-summer-yellow ">Free Consultation</a>
         </div>
-      
+
       </div>
     </section>
     <!-- call -->
 
-    
+
 
   </main>
 
@@ -228,7 +238,7 @@
   <footer class="pt14 pb16 tablet-pb14 mobile-py10">
 
     <div class="container flex jc-space-between ai-center">
-      <a href="#" class="logo mobile-w12">
+      <a href="#" class="logo mobile-w12" aria-label="logo">
         <img src="assets/logo.svg" alt="">
       </a>
       <a href="#" class="btn bg-black hover-bg-purple">Free Consultation</a>
@@ -242,4 +252,5 @@
   <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
   <script src="dist/js/app.js"></script>
 </body>
+
 </html>
