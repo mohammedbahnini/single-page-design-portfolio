@@ -7,39 +7,239 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
   
   <title>Frontend Mentor | Single-page design portfolio</title>
+
+  <!-- style -->
+  <link rel="stylesheet" href="stylie/dist/stylie.css">
+  <link rel="stylesheet" href="stylie/dist/custom.css">
+
+  <!-- slick js -->
+  <!-- Add the slick-theme.css if you want default styling -->
+<link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+<!-- Add the slick-theme.css if you want default styling -->
+<link rel="stylesheet" type="text/css" href="slick/slick-theme.min.css"/>
+
+
 </head>
-<body>
+<body class="bg-light-cream">
 
-  Free Consultation
+  <header class="pt9 tablet-pt8 mobile-pt4">
+    <div class="container">
+      <nav class="flex jc-space-between ai-center">
+        <a href="#" class="logo w16 mobile-w12" aria-label="Logo">
+          <img src="assets/logo.svg" alt="logo">
+        </a>
 
-  Design solutions made easy
+        <a href="#" class="btn bg-black hover-text-light-cream hover-bg-purple ">Free Consultation</a>
+      </nav>
+    </div>
+  </header>
 
-  With over ten years of experience in various design disciplines, I’m your one-stop shop for your design needs.
+  <main>
 
-  Graphic Design
-  UI/UX
-  Apps
-  Photography
-  Illustrations
-  Motion Graphics
+    <!-- hero -->
+    <section class="hero pt16 tablet-pt16 mobile-pt8">
+      <div class="container">
 
-  I’m Amy, and I’d love to work on your next project
+        <div class="hero__text align-center  m-auto mb25 mobile-mb8 mobile-px7">
 
-  I love working with others to create beautiful design solutions. I’ve designed everything from brand illustrations 
-  to complete mobile apps. I’m also handy with a camera!
+          <h1 class="heading-l mb0">
+            Design solutions made easy
+          </h1>
+          <p class="text text-medium-brown max-w180 tablet-max-w143 m-auto">
+            With over ten years of experience in various design disciplines, I’m your one-stop shop for your design needs.
+          </p>
+        </div>
 
-  Free Consultation
 
-  My Work
+        <div class="hero__squares grid col-gap6 row-gap6 ai-start">
 
-  Book a call with me
+          <!-- graphic design -->
+          <div class="square bg-galactic-blue col4 radius2 py7 px6 row2 tablet-col6 mobile-col12">
+            <div class="flex flex-col">
+              <div class="square__image w32 as-end mb23 mobile-mb24">
+                <img src="assets/pattern-graphic-design.svg" alt="Graphic Design">
+              </div>
+              <span class="fw700 text-white fs6">Graphic Design</span>
+            </div>
+          </div>
+          <!-- graphic design -->
 
-  I’d love to have a chat to see how I can help you. The best first step is for us to discuss your project during a 
-  free consultation. Then we can move forward from there.
 
-  Free Consultation
 
-  Free Consultation
+          <!-- ui/ix -->
+          <div class="square bg-summer-yellow col2 p6 radius2 tablet-col3 mobile-col6">
+            <div class="flex flex-col">
+              <div class="square__image w16 as-end mb10">
+                <img src="assets/pattern-ui-ux.svg" alt="UI/UX">
+              </div>
+              <span class="fw700 text-white fs6">UI/UX</span>
+            </div>
+          </div>
+          <!-- ui/ix -->
 
+
+          <!-- apps -->
+          <div class="square bg-pink col2 p6 radius2 tablet-col3 mobile-col6 ">
+            <div class="flex flex-col">
+              <div class="square__image w16 as-end mb10">
+                <img src="assets/pattern-apps.svg" alt="Graphic Design">
+              </div>
+              <span class="fw700 text-white fs6">Apps</span>
+            </div>
+          </div>
+          <!-- apps -->
+
+
+          <!-- photography -->
+          <div class="square bg-cyan col4 p6 radius2  tablet-col6 tablet-flex-order5 mobile-col12 ">
+            <div class="flex flex-col">
+              <div class="square__image h16 as-end mb10">
+                <img src="assets/pattern-photography.svg" alt="Photography">
+              </div>
+              <span class="fw700 text-white fs6">Photography</span>
+            </div>
+          </div>
+          <!-- photography -->
+
+
+          <!-- illustrations -->
+          <div class="square bg-light-red col4 p7 radius2 tablet-col6 tablet-flex-order4 mobile-col12">
+            <div class="flex flex-col">
+              <div class="square__image h16 as-end mb4">
+                <img src="assets/pattern-illustrations.svg" alt="Illustrations">
+              </div>
+              <span class="fw700 text-white fs6">Illustrations</span>
+            </div>
+          </div>
+          <!-- illustrations -->
+
+          
+          <!-- illustrations -->
+          <div class="square bg-dark-purple col4 p7 radius2 tablet-col6 tablet-flex-order6 mobile-col12">
+            <div class="flex flex-col">
+              <div class="square__image h16 as-end mb5">
+                <img src="assets/pattern-motion-graphics.svg" alt="Motion Graphics">
+              </div>
+              <span class="fw700 text-white fs6">Motion Graphics</span>
+            </div>
+          </div>
+          <!-- illustrations -->
+
+        </div>
+
+      </div>
+    </section>
+    <!-- hero -->
+
+
+    <!-- intro -->
+    <section class="intro mt34 tablet-mt30 mobile-mt25">
+      <div class="container">
+
+        <div class="flex col-gap37 ai-center tablet-gap18 mobile-flex-col mobile-row-gap10">
+
+          <div class="into__profile w111 shrink-0 tablet-w91 tablet-ml-21 mobile-ml0 mobile-w75">
+            <img src="assets/image-amy.webp" alt="Amy">
+          </div>
+
+          <div class="intro__text flex flex-col row-gap8 tablet-row-gap6 mobile-align-center mobile-row-gap6 mobile-ai-center " >
+            <h2 class="heading-m">
+              I’m Amy, and I’d love to work on your next project
+            </h2>
+            <p class="text text-medium-brown">
+              I love working with others to create beautiful design solutions. I’ve designed everything from brand illustrations 
+              to complete mobile apps. I’m also handy with a camera!
+            </p>
+            <a href="#" class="btn bg-light-red hover-bg-summer-yellow as-start mobile-as-center ">Free Consultation</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- intro -->
+
+    
+    
+    <!-- carousel -->
+    <section class="carousel pt22 tablet-pt30 mobile-pt25">
+
+      <div class="carousel__header">
+        <h3 class="heading-s align-center mb14 mobile-mb8">
+          My Work
+        </h3>
+      </div>
+
+      <div class="carousel__items " >
+
+        <div class="item w135 radius3 overflow-hidden shrink-0 mobile-w68 ">
+          <img src="assets/image-slide-3.jpg" alt="">
+        </div>
+
+        <div class="item w135 radius3 overflow-hidden shrink-0 mobile-w68">
+          <img src="assets/image-slide-4.jpg" alt="">
+        </div>
+        <div class="item w135 radius3 overflow-hidden shrink-0 mobile-w68">
+          <img src="assets/image-slide-5.jpg" alt="">
+        </div>
+        <div class="item w135 radius3 overflow-hidden shrink-0 mobile-w68">
+          <img src="assets/image-slide-1.jpg" alt="">
+        </div>
+        <div class="item w135 radius3 overflow-hidden shrink-0 mobile-w68">
+          <img src="assets/image-slide-2.jpg" alt="">
+        </div>
+      </div>
+
+      <div class="carousel__controls pt14 flex jc-center ai-center gap4 mobile-pt8 ">
+        <button class="btn btn-prev rounded p0 flex ai-center jc-center w16 bg-black hover-bg-purple">
+          <
+        </button>
+        <button class="btn btn-next rounded p0 flex ai-center jc-center w16 bg-black hover-bg-purple">
+          >
+        </button>
+      </div>
+    </section>
+    <!-- carousel -->
+
+
+    <!-- call -->
+    <section class="call pt22 tablet-pt30 mobile-pt25">
+      <div class="container ">
+        
+        <div class="call__content bg-black radius3  flex jc-space-between ai-center py20 pl16 pr24 tablet-flex-col tablet-align-center tablet-pt14 tablet-pb16 mobile-px6 mobile-py12 mobile-row-gap6  ">
+          <div class="call__text text-light-cream  max-w135 " >
+            <h2 class="heading-m mb6 tablet-mb7 mobile-mb6">
+              Book a call with me
+            </h2>
+            <p class="text tablet-mb7 mobile-mb6">
+              I’d love to have a chat to see how I can help you. The best first step is for us to discuss your project during a free consultation. Then we can move forward from there.
+            </p>
+          </div>
+          <a href="" class="call_cta btn bg-light-red shrink-0 hover-bg-summer-yellow ">Free Consultation</a>
+        </div>
+      
+      </div>
+    </section>
+    <!-- call -->
+
+    
+
+  </main>
+
+
+  <footer class="pt14 pb16 tablet-pb14 mobile-py10">
+
+    <div class="container flex jc-space-between ai-center">
+      <a href="#" class="logo mobile-w12">
+        <img src="assets/logo.svg" alt="">
+      </a>
+      <a href="#" class="btn bg-black hover-bg-purple">Free Consultation</a>
+    </div>
+  </footer>
+
+
+
+  <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <script src="dist/js/app.js"></script>
 </body>
 </html>

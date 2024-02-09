@@ -41,45 +41,8 @@
 .text{
     font-size: 1.125rem;
     line-height: 1.55555555em;
-    @include mq( $tablet-breakpoint  ){
+    @include mq( $mobile-breakpoint  ){
         font-size: 1rem;
         line-height: 1.625em;
     }
 }
-
-/* defing buttons */
-.btn{
-
-    &--primary{
-        background-color: $light-cyan;
-        border: 2px solid $light-cyan;
-        &:hover{
-            background-color: transparent;
-            color: $light-cyan;
-        }
-    }
-
-    &--secondary{
-        padding-left : 0;
-        padding-right: 0;
-
-        color: $white;
-        // border-bottom: 2px solid $light-cyan;
-        background-color: transparent;
-        position: relative;
-        &::after{
-            content: '';
-            width: 100%;
-            height: 2px;
-            position: absolute;
-            left: 0;
-            bottom: calc(50% - 1em);
-            
-            background-color: $light-cyan;
-        }
-        &:hover{
-            color: $light-cyan;
-        }
-    }
-}
-
